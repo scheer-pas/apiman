@@ -9,11 +9,22 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "Updates (non-major)"
+      "groupName": "minor and patch versions"
     },
     {
       "matchManagers": ["npm"],
       "enabled": false
+    },
+    {
+      "matchPackagePatterns": [
+        "io.netty:netty-codec-http*", 
+        "org.reflections:reflections*", 
+        "org.apache.directory.server*",
+        "io.prometheus:*",
+        "org.springframework:*",
+        "org.liquibase*"
+      ],
+      "dependencyDashboardApproval": true
     }
   ]
 }
