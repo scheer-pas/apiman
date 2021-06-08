@@ -1,5 +1,19 @@
 {
   "extends": [
     "config:base"
+  ],
+  "dependencyDashboard": true,
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  packageRules: [
+    {
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "Updates (non-major)"
+    },
+    {
+      "matchManagers": ["npm"],
+      "enabled": false
+    }
   ]
 }
