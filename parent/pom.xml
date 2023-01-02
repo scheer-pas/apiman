@@ -83,7 +83,7 @@
     <version.frontend-maven.plugin>1.6</version.frontend-maven.plugin>
     <version.git-commit-id.plugin>2.2.1</version.git-commit-id.plugin>
     <version.shade.plugin>3.2.4</version.shade.plugin>
-    <version.apache.maven.maven-artifact>3.8.4</version.apache.maven.maven-artifact>
+    <version.apache.maven.maven-artifact>3.8.7</version.apache.maven.maven-artifact>
 
     <!-- Dependency Versions -->
     <version.com.blazebit.blaze-persistence>1.6.6</version.com.blazebit.blaze-persistence>
